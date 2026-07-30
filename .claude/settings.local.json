@@ -18,7 +18,19 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git -c user.name=Tzuhui -c user.email=htzuhui@gmail.com commit -q -m ' *)",
-      "WebFetch(domain:www.edcad.ae)"
+      "WebFetch(domain:www.edcad.ae)",
+      "Bash(npx vite *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:4173/cameljourney-uae-guide/)",
+      "Bash(curl -s http://localhost:4173/cameljourney-uae-guide/)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(gh run *)",
+      "Bash(curl -s -o /dev/null -w \"狀態 %{http_code}\\\\n\" https://htzuhui-glitch.github.io/cameljourney-uae-guide/)",
+      "Bash(curl -s https://htzuhui-glitch.github.io/cameljourney-uae-guide/)",
+      "Bash(curl -s -o /dev/null -w \"狀態 %{http_code}\\\\n\" https://github.com/htzuhui-glitch/cameljourney-uae-guide)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('網址:', d['html_url']\\); print\\('狀態:', d['status']\\); print\\('建置方式:', d['build_type']\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('倉庫頁面的網站連結已設定為:', d['homepage']\\)\")",
+      "Bash(git push *)"
     ]
   }
 }
