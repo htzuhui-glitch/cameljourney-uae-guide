@@ -9,7 +9,7 @@ export default function About() {
       <Container className="py-12">
         <div className="text-flow max-w-3xl space-y-6 text-ink-700">
           <p>
-            這個網站是「慈飛，蹲點阿拉伯」的延伸。頻道上講的是生活觀察，這裡放的是真的要動手辦事時
+            這個網站是「慈飛。蹲點阿拉伯」的延伸。頻道上講的是生活觀察，這裡放的是真的要動手辦事時
             會用到的東西：流程、費用、順序、以及哪裡容易卡住。
           </p>
 

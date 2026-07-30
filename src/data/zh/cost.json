@@ -1,6 +1,6 @@
 {
   "updated": "2026-07-30",
-  "basisNote": "以下基準數字是市場行情的粗略估算，用來抓量級、不是報價。租金以年租 AED 計，其餘為每月 AED。實際數字請以當下的租屋平台、學校網站與帳單為準，也歡迎回報修正。",
+  "basisNote": "租金區間參考 2026 年租屋平台的市場行情整理，其餘為經驗值估算，用來抓量級、不是報價。租金以年租 AED 計，其餘為每月 AED。實際數字請以當下的租屋平台、學校網站與帳單為準，也歡迎回報修正。",
   "fx": {
     "twdPerAed": 8.7
   },
@@ -11,10 +11,10 @@
       "slug": "abudhabi",
       "name": "阿布達比",
       "rent": {
-        "studio": { "low": 30000, "mid": 42000, "high": 60000 },
-        "oneBr": { "low": 45000, "mid": 65000, "high": 95000 },
-        "twoBr": { "low": 65000, "mid": 95000, "high": 140000 },
-        "threeBr": { "low": 95000, "mid": 130000, "high": 190000 }
+        "studio": { "low": 35000, "mid": 50000, "high": 72000 },
+        "oneBr": { "low": 45000, "mid": 75000, "high": 115000 },
+        "twoBr": { "low": 65000, "mid": 105000, "high": 160000 },
+        "threeBr": { "low": 90000, "mid": 140000, "high": 205000 }
       },
       "utilities": { "studio": 350, "oneBr": 500, "twoBr": 800, "threeBr": 1100 },
       "transportCar": 2000,
@@ -27,10 +27,10 @@
       "slug": "dubai",
       "name": "杜拜",
       "rent": {
-        "studio": { "low": 38000, "mid": 55000, "high": 80000 },
-        "oneBr": { "low": 55000, "mid": 85000, "high": 130000 },
-        "twoBr": { "low": 85000, "mid": 130000, "high": 200000 },
-        "threeBr": { "low": 120000, "mid": 180000, "high": 280000 }
+        "studio": { "low": 40000, "mid": 60000, "high": 95000 },
+        "oneBr": { "low": 60000, "mid": 90000, "high": 140000 },
+        "twoBr": { "low": 85000, "mid": 130000, "high": 210000 },
+        "threeBr": { "low": 120000, "mid": 185000, "high": 290000 }
       },
       "utilities": { "studio": 400, "oneBr": 600, "twoBr": 950, "threeBr": 1300 },
       "transportCar": 2200,
@@ -43,10 +43,10 @@
       "slug": "sharjah",
       "name": "沙迦（通勤到杜拜）",
       "rent": {
-        "studio": { "low": 20000, "mid": 28000, "high": 38000 },
-        "oneBr": { "low": 28000, "mid": 40000, "high": 55000 },
-        "twoBr": { "low": 40000, "mid": 55000, "high": 75000 },
-        "threeBr": { "low": 55000, "mid": 75000, "high": 100000 }
+        "studio": { "low": 20000, "mid": 28000, "high": 40000 },
+        "oneBr": { "low": 28000, "mid": 39000, "high": 58000 },
+        "twoBr": { "low": 42000, "mid": 58000, "high": 82000 },
+        "threeBr": { "low": 58000, "mid": 80000, "high": 110000 }
       },
       "utilities": { "studio": 300, "oneBr": 450, "twoBr": 700, "threeBr": 950 },
       "transportCar": 1900,

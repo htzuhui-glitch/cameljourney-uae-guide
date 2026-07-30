@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
-import { NAV, SITE } from '../lib/site'
+import { NAV, SITE, SOCIAL } from '../lib/site'
 
 function Header() {
   const [open, setOpen] = useState(false)
@@ -69,13 +69,32 @@ function Header() {
 }
 
 function Footer() {
+  const socials = SOCIAL.filter((item) => item.url)
+
   return (
     <footer className="mt-20 border-t border-sand-200 bg-sand-100">
       <div className="mx-auto max-w-6xl px-5 py-10">
         <p className="text-sm font-semibold text-ink-900">
           {SITE.name} — {SITE.subtitle}
         </p>
-        <p className="text-flow mt-3 max-w-3xl text-sm text-ink-500">
+
+        {socials.length > 0 && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {socials.map((item) => (
+              <a
+                key={item.label}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-sand-300 px-4 py-1.5 text-sm text-ink-700 transition-colors hover:border-camel-400 hover:text-camel-600"
+              >
+                {item.label} ↗
+              </a>
+            ))}
+          </div>
+        )}
+
+        <p className="text-flow mt-5 max-w-3xl text-sm text-ink-500">
           本站是個人經驗與公開資料的整理，<strong className="text-ink-700">不是法律、稅務或移民建議</strong>。
           阿聯酋的簽證與居留規定變動頻繁，實際辦理前請以官方網站或你的雇主 PRO 提供的資訊為準。
           每一頁都標有最後查證日期，看到日期太舊請當作參考而非依據。

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Container } from '../components/ui'
 import { getTopicsByPhase } from '../lib/content'
-import { SITE } from '../lib/site'
+import { SITE, SOCIAL } from '../lib/site'
 import { PHASE_DESC, PHASE_LABEL, PHASE_ORDER } from '../lib/types'
 
 const ENTRIES = [
@@ -29,6 +29,7 @@ const ENTRIES = [
 
 export default function Home() {
   const byPhase = getTopicsByPhase()
+  const socials = SOCIAL.filter((item) => item.url)
 
   return (
     <>
@@ -98,6 +99,30 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        {socials.length > 0 && (
+          <section className="mt-16 rounded-2xl border border-sand-200 bg-white p-8">
+            <h2 className="text-xl font-semibold tracking-tight text-ink-900">
+              想看阿聯酋的日常長什麼樣子
+            </h2>
+            <p className="text-flow mt-2 max-w-2xl text-sm text-ink-500">
+              這個網站放的是要動手辦事時查得到的資訊；頻道上講的是住在這裡真實的樣子。兩邊搭著看。
+            </p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              {socials.map((item) => (
+                <a
+                  key={item.label}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full bg-camel-500 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-camel-600"
+                >
+                  {item.label} ↗
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
       </Container>
     </>
   )
