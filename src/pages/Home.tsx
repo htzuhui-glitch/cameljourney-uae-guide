@@ -1,20 +1,11 @@
 import { Link } from 'react-router-dom'
+import QuickCost from '../components/QuickCost'
 import { Container } from '../components/ui'
 import { getTopicsByPhase } from '../lib/content'
 import { SITE, SOCIAL } from '../lib/site'
 import { PHASE_DESC, PHASE_LABEL, PHASE_ORDER } from '../lib/types'
 
 const ENTRIES = [
-  {
-    to: '/roadmap',
-    title: '落地路線圖',
-    desc: '從還在台灣、到抵達首月、到安頓下來，每一關該辦什麼、找誰辦、要多久。',
-  },
-  {
-    to: '/cost',
-    title: '生活成本試算',
-    desc: '輸入手上的 offer 和家庭狀況，直接算出每月大概能存下多少、換成台幣是多少。',
-  },
   {
     to: '/cities',
     title: '城市與區域',
@@ -25,6 +16,16 @@ const ENTRIES = [
     title: '文化與法律',
     desc: '齋戒月、酒精、公共行為、社交禮儀——不知道會踩雷的那些事。',
   },
+  {
+    to: '/roadmap',
+    title: '落地路線圖',
+    desc: '真的要來了，從還在台灣、到抵達首月、到安頓下來，每一關該辦什麼、找誰辦、要多久。',
+  },
+  {
+    to: '/faq',
+    title: '常見問題',
+    desc: '所得稅、駕照、要從台灣帶什麼、資遣費怎麼算，被問最多的幾題。',
+  },
 ]
 
 export default function Home() {
@@ -33,26 +34,25 @@ export default function Home() {
 
   return (
     <>
-      <section className="border-b border-sand-200 bg-linear-to-b from-sand-100 to-sand-50 py-20">
+      <section className="border-b border-sand-200 bg-linear-to-b from-sand-100 to-sand-50 py-16">
         <Container>
-          <p className="text-sm font-medium tracking-wide text-camel-600">{SITE.name}</p>
-          <h1 className="mt-3 max-w-3xl text-4xl leading-tight font-semibold tracking-tight text-ink-900 sm:text-5xl">
-            {SITE.subtitle}
-          </h1>
-          <p className="text-flow mt-5 max-w-2xl text-lg text-ink-500">{SITE.tagline}</p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              to="/roadmap"
-              className="rounded-full bg-camel-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-camel-600"
-            >
-              從落地路線圖開始
-            </Link>
-            <Link
-              to="/cost"
-              className="rounded-full border border-sand-300 px-6 py-3 text-sm font-medium text-ink-700 transition-colors hover:border-camel-400 hover:text-camel-600"
-            >
-              先算算這份 offer 夠不夠
-            </Link>
+          <div className="grid items-start gap-10 lg:grid-cols-[1fr_1.1fr]">
+            <div className="lg:pt-6">
+              <p className="text-sm font-medium tracking-wide text-camel-600">{SITE.name}</p>
+              <h1 className="mt-3 text-4xl leading-tight font-semibold tracking-tight text-ink-900 sm:text-5xl">
+                在阿聯酋工作，
+                <br />
+                到底能存多少錢？
+              </h1>
+              <p className="text-flow mt-5 max-w-xl text-lg text-ink-500">
+                拉一下你現在的月薪，看看同樣的數字在這裡是什麼光景。不用有計畫，先算了再說。
+              </p>
+              <p className="text-flow mt-4 max-w-xl text-sm text-ink-500">
+                算完覺得有機會，這裡也有完整的落地流程、城市與區域介紹，還有不知道會踩雷的法律紅線。
+              </p>
+            </div>
+
+            <QuickCost />
           </div>
         </Container>
       </section>
@@ -74,7 +74,9 @@ export default function Home() {
         </div>
 
         <section className="mt-16">
-          <h2 className="text-xl font-semibold tracking-tight text-ink-900">四個階段，十個關卡</h2>
+          <h2 className="text-xl font-semibold tracking-tight text-ink-900">
+            真的要來了？四個階段，十個關卡
+          </h2>
           <p className="text-flow mt-2 max-w-2xl text-sm text-ink-500">
             來阿聯酋工作要辦的事很多，但都有先後順序。照這條時間軸走，不會漏掉也不會白跑。
           </p>
