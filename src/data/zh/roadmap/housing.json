@@ -1,0 +1,57 @@
+{
+  "slug": "housing",
+  "title": "租屋、租約登記與水電開戶",
+  "phase": "firstMonth",
+  "status": "draft",
+  "summary": "阿聯酋的房租以「年」為單位報價，而且付款次數越多、總價越貴。租約一定要做官方登記，杜拜叫 Ejari，阿布達比叫 Tawtheeq。",
+  "updated": "2026-07-30",
+  "prerequisites": [
+    "已經拿到 Emirates ID（或至少有居留許可核准通知）",
+    "已經開好本地銀行帳戶，因為房東通常要收支票",
+    "先決定城市與區域，可以參考本站的「城市與區域」單元"
+  ],
+  "steps": [
+    {
+      "title": "決定區域與預算",
+      "detail": "先想清楚通勤時間可以忍受多久。阿布達比和杜拜之間通勤是有人在做，但單趟就要一個多小時。"
+    },
+    {
+      "title": "看房",
+      "detail": "常見管道是 Bayut、Property Finder、Dubizzle 等平台，以及仲介（broker）。同一間房可能被多家仲介掛，價格會不太一樣。"
+    },
+    {
+      "title": "確認報價方式與付款次數",
+      "detail": "報價通常是「年租 + 分幾期支票」。一次付清（1 cheque）最便宜，分 4 期、12 期會逐步加價。仲介費通常是年租的一定比例，另外還有押金。",
+      "note": "簽約前把總支出算出來：年租 + 仲介費 + 押金 + 水電開戶保證金，第一筆現金壓力比想像中大。"
+    },
+    {
+      "title": "簽租約並辦理官方登記",
+      "detail": "杜拜透過 Dubai Land Department 的 Ejari 系統登記；阿布達比則是 Tawtheeq 系統。登記完成的租約是後續辦水電、辦眷屬簽證的必要文件。",
+      "note": "沒有登記的租約，等於後面每一關都會卡住。"
+    },
+    {
+      "title": "水電開戶",
+      "detail": "杜拜是 DEWA（Dubai Electricity and Water Authority），阿布達比是 ADDC（Abu Dhabi Distribution Company）。開戶要繳保證金，退租時退還。"
+    },
+    {
+      "title": "網路與第四台",
+      "detail": "主要業者是 e&（原 Etisalat）與 du。要確認你的社區是哪一家覆蓋，有些大樓只有一家可裝。"
+    },
+    {
+      "title": "點交與拍照存證",
+      "detail": "入住前把既有損壞、家具狀況全部拍照留存。退租時押金爭議幾乎都出在這裡。"
+    }
+  ],
+  "pitfalls": [
+    "「年租」不是「月租乘以 12 之後可以慢慢繳」。多數房東要求先開好整年的支票，退票在阿聯酋是嚴重的事。",
+    "仲介費、押金、水電保證金、社區管理費，都是租金以外的額外現金。第一個月的支出會遠高於之後每個月。",
+    "冷氣費（chiller）有些含在租金裡、有些另計，差距可能很大，看房時一定要問。",
+    "退租通常要提前一定期間書面通知，沒通知會自動續約。簽約時就把通知期記在行事曆上。"
+  ],
+  "links": [
+    { "label": "Dubai Land Department — Ejari", "url": "https://dubailand.gov.ae/" },
+    { "label": "DEWA 杜拜水電局", "url": "https://www.dewa.gov.ae/" },
+    { "label": "ADDC 阿布達比配電公司", "url": "https://www.addc.ae/" },
+    { "label": "Abu Dhabi 政府入口網 — Tawtheeq", "url": "https://www.tamm.abudhabi/" }
+  ]
+}

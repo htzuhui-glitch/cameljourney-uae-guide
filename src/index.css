@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-sand-50: #fdfaf5;
+  --color-sand-100: #f7f0e4;
+  --color-sand-200: #ece0cd;
+  --color-sand-300: #dcc9ac;
+  --color-camel-400: #c9a06b;
+  --color-camel-500: #b4834a;
+  --color-camel-600: #96683a;
+  --color-clay-500: #a85a3e;
+  --color-clay-600: #8b4630;
+  --color-gulf-500: #2b6f6a;
+  --color-gulf-600: #1f544f;
+  --color-ink-500: #6b6259;
+  --color-ink-700: #443c34;
+  --color-ink-900: #2a2420;
+
+  --font-sans: 'PingFang TC', 'Noto Sans TC', 'Hiragino Sans TC', 'Microsoft JhengHei',
+    system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-sand-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 中文與英數之間自動留空隙，符合中文排版習慣 */
+.text-flow {
+  text-spacing-trim: space-all;
+  line-height: 1.85;
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "job",
+  "title": "找工作與合約審查",
+  "phase": "before",
+  "status": "draft",
+  "summary": "阿聯酋沒有個人所得稅，offer 上的數字通常就是實領，但薪資怎麼拆、試用期多長、資遣費怎麼算，會決定你實際拿到多少。",
+  "updated": "2026-07-30",
+  "steps": [
+    {
+      "title": "盤點自己的求職管道",
+      "detail": "LinkedIn 是這裡最主要的求職平台，獵頭（recruitment agency）也很活躍。台灣人常見的切入點是跨國公司的區域辦公室、貿易、物流、飯店餐旅、教育。"
+    },
+    {
+      "title": "履歷改成當地習慣的格式",
+      "detail": "英文履歷，簡潔條列，強調可量化的成果。當地履歷常會附上國籍與簽證狀態，因為雇主要評估 sponsor 的成本。"
+    },
+    {
+      "title": "面試與談薪",
+      "detail": "談薪時要問清楚薪資怎麼拆（basic / housing / transport）、是否含機票、醫療保險涵蓋範圍與是否包含眷屬。"
+    },
+    {
+      "title": "拿到 offer 後逐條檢查合約",
+      "detail": "重點看：職稱與職務範圍、薪資結構與 basic 佔比、試用期長度、通知期（notice period）、年假天數、機票、醫療保險、是否有競業條款。",
+      "note": "阿聯酋現行勞動法為 Federal Decree-Law No. 33 of 2021，2022 年 2 月生效。試用期上限為 6 個月。"
+    },
+    {
+      "title": "確認合約有正式登記",
+      "detail": "Mainland 公司的合約要登記在 MoHRE 系統，自由區則登記在該自由區管理局。沒登記的合約在爭議時保護力有限。"
+    }
+  ],
+  "pitfalls": [
+    "薪資拆分要看仔細：資遣費（end of service gratuity）是以 basic salary 計算，basic 佔比壓得越低，你離職時拿到的越少。",
+    "口頭承諾不算數。獎金、機票、簽證費用由誰負擔，都要寫進合約。",
+    "試用期內離職，通知期與費用負擔的規定和一般時期不同，簽約前先看清楚這一段。",
+    "遇到勞資爭議，mainland 員工可向 MoHRE 申訴；自由區員工則向該自由區管理局。管道不同，別找錯門。"
+  ],
+  "links": [
+    { "label": "MoHRE — 勞動關係與申訴", "url": "https://www.mohre.gov.ae/" },
+    { "label": "u.ae — 阿聯酋勞動法概覽", "url": "https://u.ae/en/information-and-services/jobs" }
+  ]
+}

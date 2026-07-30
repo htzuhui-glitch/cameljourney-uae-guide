@@ -1,0 +1,36 @@
+{
+  "slug": "telecom",
+  "title": "門號與網路",
+  "phase": "firstMonth",
+  "status": "draft",
+  "summary": "阿聯酋的電信市場基本上是 e&（原 Etisalat）與 du 兩家。辦月租型（postpaid）需要 Emirates ID，還沒拿到之前可以先用預付卡（prepaid）。",
+  "updated": "2026-07-30",
+  "steps": [
+    {
+      "title": "落地先辦預付卡",
+      "detail": "機場就有櫃檯，持護照可以先辦預付卡撐過等 Emirates ID 的空窗期。"
+    },
+    {
+      "title": "拿到 Emirates ID 後轉月租",
+      "detail": "月租型方案通常比較划算，也才能綁家用網路的組合包。"
+    },
+    {
+      "title": "確認住處的網路業者",
+      "detail": "有些社區或大樓只有其中一家業者覆蓋，不能自己選。看房時就問清楚。"
+    },
+    {
+      "title": "了解通訊軟體的可用範圍",
+      "detail": "阿聯酋對網路語音與視訊通話（VoIP）有管制，部分國際通訊軟體的通話功能無法使用或受限。",
+      "note": "跟台灣家人視訊的方式要先確認好，這是很多人落地後才發現的問題。可用的服務會隨政策調整，請以當下實際狀況為準。"
+    }
+  ],
+  "pitfalls": [
+    "VoIP 管制是台灣人最有感的落差。出發前先想好跟家人聯絡的替代方案。",
+    "月租型合約通常有綁約期，提前解約要付違約金。短期外派要問清楚。"
+  ],
+  "links": [
+    { "label": "e& UAE（原 Etisalat）", "url": "https://www.etisalat.ae/" },
+    { "label": "du", "url": "https://www.du.ae/" },
+    { "label": "TDRA 阿聯酋電信與數位政府監管總局", "url": "https://tdra.gov.ae/" }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "updated": "2026-07-30",
+  "groups": [
+    {
+      "title": "阿聯酋官方",
+      "links": [
+        { "label": "u.ae 阿聯酋政府入口網", "url": "https://u.ae/en", "note": "所有政府服務的總入口，有英文版，查任何手續都先從這裡開始。" },
+        { "label": "MoHRE 人力資源與本國化部", "url": "https://www.mohre.gov.ae/", "note": "工作許可、勞動合約、勞資爭議申訴（適用 mainland 公司員工）。" },
+        { "label": "ICP 身分、公民、海關與港口安全局", "url": "https://icp.gov.ae/", "note": "簽證、居留許可、Emirates ID。" },
+        { "label": "MOHAP 衛生部", "url": "https://mohap.gov.ae/", "note": "醫療法規與藥品入境管制清單。" },
+        { "label": "TAMM 阿布達比政府服務入口", "url": "https://www.tamm.abudhabi/", "note": "阿布達比的租約登記（Tawtheeq）等在地服務。" },
+        { "label": "Dubai Land Department", "url": "https://dubailand.gov.ae/", "note": "杜拜的租約登記（Ejari）與不動產相關服務。" },
+        { "label": "RTA 杜拜道路交通局", "url": "https://www.rta.ae/", "note": "駕照、Salik、大眾運輸。" }
+      ]
+    },
+    {
+      "title": "台灣端",
+      "links": [
+        { "label": "駐杜拜台北商務辦事處", "url": "https://www.roc-taiwan.org/aedxb/", "note": "台灣在阿聯酋的官方代表機構，護照、文件驗證、急難救助。" },
+        { "label": "外交部領事事務局", "url": "https://www.boca.gov.tw/", "note": "出國前的旅外安全資訊與文件驗證。" },
+        { "label": "衛福部中央健康保險署", "url": "https://www.nhi.gov.tw/", "note": "健保停復保規定，長期出國前務必確認。" },
+        { "label": "財政部稅務入口網", "url": "https://www.etax.nat.gov.tw/", "note": "境外所得申報與居住者身分認定。" }
+      ]
+    },
+    {
+      "title": "找房與找工作",
+      "links": [
+        { "label": "Bayut", "url": "https://www.bayut.com/", "note": "阿聯酋主要的房屋租售平台之一。" },
+        { "label": "Property Finder", "url": "https://www.propertyfinder.ae/", "note": "另一個主要房屋平台，可以交叉比對同一物件的報價。" },
+        { "label": "Dubizzle", "url": "https://www.dubizzle.com/", "note": "綜合分類廣告，租屋、二手物品都有。" },
+        { "label": "LinkedIn", "url": "https://www.linkedin.com/", "note": "阿聯酋最主要的求職與獵頭平台。" }
+      ]
+    },
+    {
+      "title": "教育",
+      "links": [
+        { "label": "KHDA 杜拜知識與人力發展局", "url": "https://www.khda.gov.ae/", "note": "杜拜私立學校的評鑑報告，選校時很值得看。" },
+        { "label": "ADEK 阿布達比教育與知識部", "url": "https://www.adek.gov.ae/", "note": "阿布達比的學校資訊與評鑑。" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+import { Container, PageHeader } from '../components/ui'
+import cultureData from '../data/zh/culture.json'
+
+interface CultureItem {
+  title: string
+  body: string
+  /** 標記為有法律責任的項目，會用醒目色與標籤標出 */
+  serious?: boolean
+}
+
+interface CultureSection {
+  title: string
+  intro?: string
+  items: CultureItem[]
+}
+
+const culture = cultureData as {
+  updated: string
+  lead: string
+  sections: CultureSection[]
+}
+
+export default function Culture() {
+  return (
+    <>
+      <PageHeader
+        eyebrow="不知道會踩雷"
+        title="文化與法律"
+        lead={culture.lead}
+        updated={culture.updated}
+      />
+
+      <Container className="py-12">
+        <div className="max-w-3xl space-y-12">
+          {culture.sections.map((section) => (
+            <section key={section.title}>
+              <h2 className="text-xl font-semibold tracking-tight text-ink-900">{section.title}</h2>
+              {section.intro && (
+                <p className="text-flow mt-2 text-sm text-ink-500">{section.intro}</p>
+              )}
+              <div className="mt-5 space-y-3">
+                {section.items.map((item) => (
+                  <div
+                    key={item.title}
+                    className={`rounded-2xl border bg-white p-5 ${
+                      item.serious ? 'border-clay-500/40' : 'border-sand-200'
+                    }`}
+                  >
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h3 className="font-semibold text-ink-900">{item.title}</h3>
+                      {item.serious && (
+                        <span className="rounded-full bg-clay-500/10 px-2.5 py-0.5 text-xs font-medium text-clay-600">
+                          有法律責任
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-flow mt-2 text-sm text-ink-700">{item.body}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      </Container>
+    </>
+  )
+}
