@@ -44,13 +44,15 @@ export default function QuickCost() {
             aria-label="台幣月薪滑桿"
             className="h-2 flex-1 cursor-pointer appearance-none rounded-full bg-sand-200 accent-[var(--color-camel-500)]"
           />
+          {/* 用文字欄位而非 number，才能顯示千分位逗號 */}
           <input
-            type="number"
-            min={0}
-            step={5000}
-            value={salaryTwd}
-            onChange={(e) => setSalaryTwd(Math.max(0, Number(e.target.value) || 0))}
-            onWheel={(e) => e.currentTarget.blur()}
+            type="text"
+            inputMode="numeric"
+            value={salaryTwd.toLocaleString('zh-TW')}
+            onChange={(e) => {
+              const digits = e.target.value.replace(/\D/g, '')
+              setSalaryTwd(digits ? Math.min(Number(digits), 99999999) : 0)
+            }}
             aria-label="台幣月薪"
             className="w-28 shrink-0 rounded-lg border border-transparent px-2 py-1 text-right text-lg font-semibold text-ink-900 tabular-nums hover:border-sand-300 focus:border-camel-400 focus:outline-none"
           />
