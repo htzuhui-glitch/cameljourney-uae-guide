@@ -30,7 +30,9 @@
       "Bash(curl -s -o /dev/null -w \"狀態 %{http_code}\\\\n\" https://github.com/htzuhui-glitch/cameljourney-uae-guide)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('網址:', d['html_url']\\); print\\('狀態:', d['status']\\); print\\('建置方式:', d['build_type']\\)\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('倉庫頁面的網站連結已設定為:', d['homepage']\\)\")",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(xargs perl -pi -e 's/資遣費/約滿酬金/g')",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

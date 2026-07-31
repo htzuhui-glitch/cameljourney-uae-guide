@@ -46,6 +46,7 @@ export default function Cost() {
   const [children, setChildren] = useState(0)
   const [hasCar, setHasCar] = useState(true)
   const [companyHousing, setCompanyHousing] = useState(0)
+  const [companyAccommodation, setCompanyAccommodation] = useState(false)
   const [companyInsurance, setCompanyInsurance] = useState(true)
 
   const applyPreset = (preset: (typeof PRESETS)[number]) => {
@@ -67,9 +68,20 @@ export default function Cost() {
         children,
         hasCar,
         companyHousing,
+        companyAccommodation,
         companyInsurance,
       }),
-    [citySlug, housing, tier, adults, children, hasCar, companyHousing, companyInsurance],
+    [
+      citySlug,
+      housing,
+      tier,
+      adults,
+      children,
+      hasCar,
+      companyHousing,
+      companyAccommodation,
+      companyInsurance,
+    ],
   )
 
   const balance = salaryAed - total
@@ -243,15 +255,27 @@ export default function Cost() {
                   min={0}
                   step={500}
                   value={companyHousing}
+                  disabled={companyAccommodation}
                   onChange={(e) => setCompanyHousing(Math.max(0, Number(e.target.value) || 0))}
-                  className="mt-2 w-full rounded-lg border border-sand-300 px-3 py-2 text-ink-900 focus:border-camel-400 focus:outline-none"
+                  className="mt-2 w-full rounded-lg border border-sand-300 px-3 py-2 text-ink-900 focus:border-camel-400 focus:outline-none disabled:bg-sand-100 disabled:text-ink-500"
                 />
                 <span className="mt-1 block text-xs text-ink-500">
-                  很多 offer 會把薪水拆成 basic + housing + transport，這裡填 housing 那一項。
+                  {companyAccommodation
+                    ? '公司直接提供宿舍時，這一欄用不到。'
+                    : '很多 offer 會把薪水拆成 basic + housing + transport，這裡填 housing 那一項。'}
                 </span>
               </label>
 
               <div className="space-y-3">
+                <label className="flex items-center gap-3">
+                  <input
+                    type="checkbox"
+                    checked={companyAccommodation}
+                    onChange={(e) => setCompanyAccommodation(e.target.checked)}
+                    className="h-4 w-4 accent-[var(--color-camel-500)]"
+                  />
+                  <span className="text-sm text-ink-700">公司提供宿舍（不用自己付房租）</span>
+                </label>
                 <label className="flex items-center gap-3">
                   <input
                     type="checkbox"

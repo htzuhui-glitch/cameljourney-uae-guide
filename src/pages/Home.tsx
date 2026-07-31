@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import QuickCost from '../components/QuickCost'
+import SocialIcon from '../components/SocialIcon'
 import { Container } from '../components/ui'
 import { getTopicsByPhase } from '../lib/content'
 import { SITE, SOCIAL } from '../lib/site'
@@ -24,7 +25,7 @@ const ENTRIES = [
   {
     to: '/faq',
     title: '常見問題',
-    desc: '所得稅、駕照、要從台灣帶什麼、資遣費怎麼算，被問最多的幾題。',
+    desc: '所得稅、駕照、要從台灣帶什麼、約滿酬金怎麼算，被問最多的幾題。',
   },
 ]
 
@@ -117,9 +118,10 @@ export default function Home() {
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-full bg-camel-500 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-camel-600"
+                  className="flex items-center gap-2 rounded-full bg-camel-500 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-camel-600"
                 >
-                  {item.label} ↗
+                  <SocialIcon id={item.id} className="h-4 w-4" />
+                  {item.label}
                 </a>
               ))}
             </div>

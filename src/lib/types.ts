@@ -47,6 +47,8 @@ export interface Topic {
   steps: Step[]
   costs?: CostItem[]
   pitfalls?: string[]
+  /** 延伸影片，會在頁面最後獨立成一區 */
+  videos?: LinkItem[]
   links?: LinkItem[]
   /** 最後查證日期 YYYY-MM-DD */
   updated: string

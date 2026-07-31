@@ -17,10 +17,11 @@ import {
 export default function QuickCost() {
   const [salaryTwd, setSalaryTwd] = useState(60000)
   const [citySlug, setCitySlug] = useState(DEFAULT_INPUT.citySlug)
+  const [companyAccommodation, setCompanyAccommodation] = useState(false)
 
   const { total, city } = useMemo(
-    () => calculate({ ...DEFAULT_INPUT, citySlug }),
-    [citySlug],
+    () => calculate({ ...DEFAULT_INPUT, citySlug, companyAccommodation }),
+    [citySlug, companyAccommodation],
   )
 
   const salaryAed = twdToAed(salaryTwd)
@@ -36,7 +37,7 @@ export default function QuickCost() {
           <input
             type="range"
             min={30000}
-            max={300000}
+            max={1000000}
             step={5000}
             value={salaryTwd}
             onChange={(e) => setSalaryTwd(Number(e.target.value))}
@@ -66,13 +67,25 @@ export default function QuickCost() {
         ))}
       </div>
 
+      <label className="mt-4 flex items-center gap-3">
+        <input
+          type="checkbox"
+          checked={companyAccommodation}
+          onChange={(e) => setCompanyAccommodation(e.target.checked)}
+          className="h-4 w-4 accent-[var(--color-camel-500)]"
+        />
+        <span className="text-sm text-ink-700">公司提供宿舍（不用自己付房租）</span>
+      </label>
+
       <div className="mt-6 space-y-3 border-t border-sand-200 pt-6 text-sm">
         <div className="flex items-baseline justify-between gap-4">
           <span className="text-ink-500">你的薪水換算成當地幣別</span>
           <span className="font-medium whitespace-nowrap text-ink-900">{aed(salaryAed)}</span>
         </div>
         <div className="flex items-baseline justify-between gap-4">
-          <span className="text-ink-500">在{city.name}，單身住一房、有車的每月開銷</span>
+          <span className="text-ink-500">
+            在{city.name}，單身{companyAccommodation ? '住公司宿舍' : '住一房'}、有車的每月開銷
+          </span>
           <span className="font-medium whitespace-nowrap text-ink-900">{aed(total)}</span>
         </div>
       </div>

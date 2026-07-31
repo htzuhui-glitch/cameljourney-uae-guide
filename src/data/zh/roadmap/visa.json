@@ -7,15 +7,9 @@
   "updated": "2026-07-30",
   "prerequisites": [
     "已經拿到正式 offer，而且雇主確認會 sponsor 你的工作簽證",
-    "護照效期至少還有 6 個月以上",
-    "先確認雇主是本地公司（mainland，走 MoHRE）還是自由區公司（free zone，走該自由區管理局），流程和主管機關不同"
+    "護照效期至少還有 6 個月以上"
   ],
   "steps": [
-    {
-      "title": "確認雇主的公司類型",
-      "detail": "Mainland 公司由聯邦人力資源部（MoHRE）核發工作許可；DMCC、DIFC、ADGM、twofour54 等自由區則由各自由區管理局處理。兩者的合約範本、申訴管道都不一樣。",
-      "note": "這一題會影響後面所有流程，簽約前就問清楚。"
-    },
     {
       "title": "備妥並認證文件",
       "detail": "常見需要的是護照影本、大頭照（白底）、學歷證書、必要時的專業執照。學歷要辦文件認證（attestation），台灣端的流程是「公證事務所 → 外交部 → 阿聯酋在台代表處複驗」三關接力。",
@@ -55,7 +49,7 @@
     "學歷文件驗證（attestation）是最常拖延的一關，而且台灣的辦理管道跟其他國家不同。一拿到 offer 就開始問，不要等雇主催。",
     "入境許可有使用期限，別排太滿的行程導致過期作廢。",
     "整個流程的主導權在雇主手上，但拖延的成本在你身上。定期跟 PRO 確認進度，並保留書面往來紀錄。",
-    "薪資結構通常拆成 basic salary + housing allowance + transport allowance。資遣費（gratuity）是用 basic salary 計算的，所以 basic 佔比越低，離職時拿到的越少。"
+    "薪資結構通常拆成 basic salary + housing allowance + transport allowance。約滿酬金（gratuity）是用 basic salary 計算的，所以 basic 佔比越低，離職時拿到的越少。"
   ],
   "links": [
     { "label": "MoHRE 阿聯酋人力資源與本國化部", "url": "https://www.mohre.gov.ae/" },

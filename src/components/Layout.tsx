@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { NAV, SITE, SOCIAL } from '../lib/site'
+import SocialIcon from './SocialIcon'
 
 function Header() {
   const [open, setOpen] = useState(false)
@@ -86,9 +87,11 @@ function Footer() {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-sand-300 px-4 py-1.5 text-sm text-ink-700 transition-colors hover:border-camel-400 hover:text-camel-600"
+                aria-label={item.label}
+                title={item.label}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-sand-300 text-ink-500 transition-colors hover:border-camel-400 hover:text-camel-600"
               >
-                {item.label} ↗
+                <SocialIcon id={item.id} />
               </a>
             ))}
           </div>

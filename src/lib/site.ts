@@ -5,13 +5,15 @@ export const SITE = {
   repo: 'cameljourney-uae-guide',
 }
 
+import type { SocialId } from '../components/SocialIcon'
+
 /**
  * 社群連結。網址留空的項目不會顯示，填上去就會自動出現在頁尾。
  */
-export const SOCIAL: { label: string; url: string }[] = [
-  { label: 'YouTube', url: 'https://www.youtube.com/@htzuhui' },
-  { label: 'Instagram', url: 'https://www.instagram.com/cameljourney/' },
-  { label: 'Facebook', url: '' },
+export const SOCIAL: { id: SocialId; label: string; url: string }[] = [
+  { id: 'youtube', label: 'YouTube', url: 'https://www.youtube.com/@htzuhui' },
+  { id: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/cameljourney/' },
+  { id: 'facebook', label: 'Facebook', url: '' },
 ]
 
 export const NAV = [

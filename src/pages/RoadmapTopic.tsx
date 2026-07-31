@@ -208,6 +208,33 @@ export default function RoadmapTopic() {
             </Section>
           )}
 
+          {topic.videos && topic.videos.length > 0 && (
+            <Section title="延伸影片">
+              <ul className="space-y-3">
+                {topic.videos.map((video) => (
+                  <li key={video.url}>
+                    <a
+                      href={video.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex items-start gap-3 rounded-2xl border border-sand-200 bg-white p-4 transition-colors hover:border-camel-400"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-clay-500/10 text-clay-600"
+                      >
+                        ▶
+                      </span>
+                      <span className="text-flow text-sm text-ink-700 group-hover:text-camel-600">
+                        {video.label}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </Section>
+          )}
+
           {topic.links && topic.links.length > 0 && (
             <Section title="官方與參考連結">
               <ul className="space-y-2">
