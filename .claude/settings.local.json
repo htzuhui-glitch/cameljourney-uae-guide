@@ -32,7 +32,8 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('倉庫頁面的網站連結已設定為:', d['homepage']\\)\")",
       "Bash(git push *)",
       "Bash(xargs perl -pi -e 's/資遣費/約滿酬金/g')",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -)"
     ]
   }
 }

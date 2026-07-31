@@ -37,17 +37,27 @@ export default function QuickCost() {
           <input
             type="range"
             min={30000}
-            max={1000000}
+            max={600000}
             step={5000}
-            value={salaryTwd}
+            value={Math.min(salaryTwd, 600000)}
             onChange={(e) => setSalaryTwd(Number(e.target.value))}
-            aria-label="台幣月薪"
+            aria-label="台幣月薪滑桿"
             className="h-2 flex-1 cursor-pointer appearance-none rounded-full bg-sand-200 accent-[var(--color-camel-500)]"
           />
-          <span className="w-28 shrink-0 text-right text-lg font-semibold text-ink-900 tabular-nums">
-            {salaryTwd.toLocaleString('zh-TW')}
-          </span>
+          <input
+            type="number"
+            min={0}
+            step={5000}
+            value={salaryTwd}
+            onChange={(e) => setSalaryTwd(Math.max(0, Number(e.target.value) || 0))}
+            onWheel={(e) => e.currentTarget.blur()}
+            aria-label="台幣月薪"
+            className="w-28 shrink-0 rounded-lg border border-transparent px-2 py-1 text-right text-lg font-semibold text-ink-900 tabular-nums hover:border-sand-300 focus:border-camel-400 focus:outline-none"
+          />
         </div>
+        <span className="mt-1 block text-xs text-ink-500">
+          滑桿到 60 萬，更高的數字可以直接在右邊輸入。
+        </span>
       </label>
 
       <div className="mt-5 flex flex-wrap gap-2">
