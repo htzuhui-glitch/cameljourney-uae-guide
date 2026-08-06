@@ -1,8 +1,10 @@
 # 慈飛。蹲點阿拉伯 — 阿聯酋工作生活指南
 
-> 最後更新：2026-07-30
+> 最後更新：2026-08-06
 > GitHub repo：`cameljourney-uae-guide`
-> 狀態：架構已確認，建置中
+> 網站：https://htzuhui-glitch.github.io/cameljourney-uae-guide/
+> 狀態：第一階段已上線。內容持續補充中，十個路線圖主題仍標記為 draft，
+> 各區域的「慈飛的實地觀察」尚未填寫。
 
 ## 一、這個網站要解決什麼
 

@@ -35,7 +35,9 @@
       "Bash(python3 -c ' *)",
       "Bash(python3 -)",
       "Bash(kill 97779 97778 15125 15109)",
-      "Bash(rm -f node_modules/.tmp/*.tsbuildinfo tsconfig.app.tsbuildinfo tsconfig.node.tsbuildinfo)"
+      "Bash(rm -f node_modules/.tmp/*.tsbuildinfo tsconfig.app.tsbuildinfo tsconfig.node.tsbuildinfo)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('status:',d.get\\('status'\\),'| build_type:',d.get\\('build_type'\\)\\)\")",
+      "Bash(gh workflow *)"
     ]
   }
 }
