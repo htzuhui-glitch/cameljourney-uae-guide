@@ -39,3 +39,7 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # GitHub Pages 的部署佇列有時會慢到超過預設的 10 分鐘而被中止，
+          # 這裡放寬到 30 分鐘，避免明明有在跑卻被判定失敗。
+          timeout: 1800000
