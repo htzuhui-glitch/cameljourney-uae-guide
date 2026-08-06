@@ -1,3 +1,4 @@
+import Consult from '../components/Consult'
 import { Container, PageHeader } from '../components/ui'
 import { SITE } from '../lib/site'
 
@@ -44,6 +45,10 @@ export default function About() {
             <code className="rounded bg-sand-100 px-1.5 py-0.5 text-sm">{SITE.repo}</code>
             ）開 issue 告訴我。
           </p>
+        </div>
+
+        <div className="mt-12 max-w-3xl">
+          <Consult />
         </div>
       </Container>
     </>

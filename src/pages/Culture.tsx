@@ -4,8 +4,6 @@ import cultureData from '../data/zh/culture.json'
 interface CultureItem {
   title: string
   body: string
-  /** 標記為有法律責任的項目，會用醒目色與標籤標出 */
-  serious?: boolean
 }
 
 interface CultureSection {
@@ -42,18 +40,9 @@ export default function Culture() {
                 {section.items.map((item) => (
                   <div
                     key={item.title}
-                    className={`rounded-2xl border bg-white p-5 ${
-                      item.serious ? 'border-clay-500/40' : 'border-sand-200'
-                    }`}
+                    className="rounded-2xl border border-sand-200 bg-white p-5"
                   >
-                    <div className="flex flex-wrap items-center gap-2">
-                      <h3 className="font-semibold text-ink-900">{item.title}</h3>
-                      {item.serious && (
-                        <span className="rounded-full bg-clay-500/10 px-2.5 py-0.5 text-xs font-medium text-clay-600">
-                          有法律責任
-                        </span>
-                      )}
-                    </div>
+                    <h3 className="font-semibold text-ink-900">{item.title}</h3>
                     <p className="text-flow mt-2 text-sm text-ink-700">{item.body}</p>
                   </div>
                 ))}

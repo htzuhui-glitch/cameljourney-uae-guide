@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Consult from '../components/Consult'
 import QuickCost from '../components/QuickCost'
 import SocialIcon from '../components/SocialIcon'
 import { Container } from '../components/ui'
@@ -145,6 +146,10 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        <div className="mt-16">
+          <Consult />
+        </div>
 
         {socials.length > 0 && (
           <section className="mt-16 rounded-2xl border border-sand-200 bg-white p-8">
