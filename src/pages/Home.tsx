@@ -38,22 +38,49 @@ export default function Home() {
       <section className="border-b border-sand-200 bg-linear-to-b from-sand-100 to-sand-50 py-16">
         <Container>
           <div className="grid items-start gap-10 lg:grid-cols-[1fr_1.1fr]">
-            <div className="lg:pt-6">
+            <div className="lg:pt-4">
               <p className="text-sm font-medium tracking-wide text-camel-600">{SITE.name}</p>
               <h1 className="mt-3 text-4xl leading-tight font-semibold tracking-tight text-ink-900 sm:text-5xl">
-                在阿聯酋工作，
+                來阿聯酋工作，
                 <br />
-                到底能存多少錢？
+                要知道的每一件事
               </h1>
               <p className="text-flow mt-5 max-w-xl text-lg text-ink-500">
-                拉一下你現在的月薪，看看同樣的數字在這裡是什麼光景。不用有計畫，先算了再說。
+                簽證怎麼辦、房子怎麼租、駕照怎麼考、家人怎麼接過來、一個月要花多少錢——
+                這裡把來阿聯酋工作要跑的每一關，整理成可以照著走的清單。
               </p>
-              <p className="text-flow mt-4 max-w-xl text-sm text-ink-500">
-                算完覺得有機會，這裡也有完整的落地流程、城市與區域介紹，還有不知道會踩雷的法律紅線。
-              </p>
+
+              <div className="mt-8 space-y-4">
+                <div className="rounded-2xl border border-sand-300 bg-white/60 p-5">
+                  <p className="text-sm font-semibold text-camel-600">已經要出發了</p>
+                  <p className="text-flow mt-1.5 text-sm text-ink-700">
+                    拿到 offer、準備打包的人，從落地路線圖開始。四個階段十個關卡，
+                    照順序走不會漏掉，也不會白跑一趟。
+                  </p>
+                  <Link
+                    to="/roadmap"
+                    className="mt-3 inline-block text-sm font-medium text-camel-600 underline-offset-4 hover:underline"
+                  >
+                    看落地路線圖 →
+                  </Link>
+                </div>
+
+                <div className="rounded-2xl border border-sand-300 bg-white/60 p-5">
+                  <p className="text-sm font-semibold text-camel-600">只是好奇</p>
+                  <p className="text-flow mt-1.5 text-sm text-ink-700">
+                    還沒有計畫也沒關係。填你現在的台灣月薪，三秒鐘就知道同樣的錢在這裡
+                    能過什麼樣的生活。
+                  </p>
+                </div>
+              </div>
             </div>
 
-            <QuickCost />
+            <div>
+              <p className="mb-3 text-sm font-medium text-ink-700 lg:pt-4">
+                先玩玩看：你的薪水在阿聯酋是什麼光景？
+              </p>
+              <QuickCost />
+            </div>
           </div>
         </Container>
       </section>

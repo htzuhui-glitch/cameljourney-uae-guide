@@ -33,7 +33,9 @@
       "Bash(git push *)",
       "Bash(xargs perl -pi -e 's/資遣費/約滿酬金/g')",
       "Bash(python3 -c ' *)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(kill 97779 97778 15125 15109)",
+      "Bash(rm -f node_modules/.tmp/*.tsbuildinfo tsconfig.app.tsbuildinfo tsconfig.node.tsbuildinfo)"
     ]
   }
 }
