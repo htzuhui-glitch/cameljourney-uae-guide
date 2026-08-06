@@ -29,6 +29,15 @@ const ENTRIES = [
   },
 ]
 
+/** 把游標送到試算的薪水欄位。手機上會順便捲過去，桌機上則是直接可以打字 */
+function focusQuickCost() {
+  const input = document.getElementById('quick-cost-salary') as HTMLInputElement | null
+  if (!input) return
+  input.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  input.focus()
+  input.select()
+}
+
 export default function Home() {
   const byPhase = getTopicsByPhase()
   const socials = SOCIAL.filter((item) => item.url)
@@ -71,6 +80,13 @@ export default function Home() {
                     還沒有計畫也沒關係。填你現在的台灣月薪，三秒鐘就知道同樣的錢在這裡
                     能過什麼樣的生活。
                   </p>
+                  <button
+                    type="button"
+                    onClick={focusQuickCost}
+                    className="mt-3 text-sm font-medium text-camel-600 underline-offset-4 hover:underline"
+                  >
+                    填我的薪水試算 →
+                  </button>
                 </div>
               </div>
             </div>

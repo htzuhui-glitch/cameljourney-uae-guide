@@ -46,6 +46,7 @@ export default function QuickCost() {
           />
           {/* 用文字欄位而非 number，才能顯示千分位逗號 */}
           <input
+            id="quick-cost-salary"
             type="text"
             inputMode="numeric"
             value={salaryTwd.toLocaleString('zh-TW')}
