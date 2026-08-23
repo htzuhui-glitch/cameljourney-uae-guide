@@ -4,7 +4,7 @@
   "phase": "before",
   "status": "draft",
   "summary": "在阿聯酋，簽證是雇主辦的，不是你自己辦的。你要做的是備妥文件、配合體檢和按指紋，然後盯著進度。",
-  "updated": "2026-07-30",
+  "updated": "2026-08-23",
   "prerequisites": [
     "已經拿到正式 offer，而且雇主確認會 sponsor 你的工作簽證",
     "護照效期至少還有 6 個月以上"
@@ -12,7 +12,7 @@
   "steps": [
     {
       "title": "備妥並認證文件",
-      "detail": "常見需要的是護照影本、大頭照（白底）、學歷證書、必要時的專業執照。學歷要辦文件認證（attestation），台灣端的流程是「公證事務所 → 外交部 → 阿聯酋在台代表處複驗」三關接力。",
+      "detail": "常見需要的是護照影本、大頭照（白底）、學歷證書、必要時的專業執照。學歷要辦文件認證（attestation），流程是「民間公證人 → 外交部 → 駐杜拜台北商務辦事處複驗」三關接力，前兩關在台灣、最後一關到了阿聯酋才辦。",
       "note": "這是整個流程最容易拖延的一關，一拿到 offer 就開始辦。細節看「出發前在台灣要處理的事」那一頁。"
     },
     {
@@ -25,11 +25,12 @@
     },
     {
       "title": "入境阿聯酋",
-      "detail": "持入境許可入境，落地後才開始跑居留手續。"
+      "detail": "持入境許可入境，落地後才開始跑居留手續。",
+      "note": "入境後 59 天內要把體檢、按指紋、簽證蓋章（visa stamping）三件事全部完成。時間看起來很多，但每一關都要預約排隊，實際上不太寬裕，落地第一週就該開始動。"
     },
     {
       "title": "體檢（medical fitness test）",
-      "detail": "到指定醫療中心抽血與胸部 X 光，篩檢傳染病。結果不合格會影響居留許可。"
+      "detail": "到指定醫療中心做兩項：抽血檢驗 HIV／愛滋、B 型肝炎表面抗原、C 型肝炎、梅毒（VDRL）；以及胸部 X 光檢查肺結核（TB）。結果不合格會影響居留許可。"
     },
     {
       "title": "Emirates ID 按指紋與辦證",
@@ -47,13 +48,22 @@
   ],
   "pitfalls": [
     "學歷文件驗證（attestation）是最常拖延的一關，而且台灣的辦理管道跟其他國家不同。一拿到 offer 就開始問，不要等雇主催。",
-    "入境許可有使用期限，別排太滿的行程導致過期作廢。",
-    "整個流程的主導權在雇主手上，但拖延的成本在你身上。定期跟 PRO 確認進度，並保留書面往來紀錄。",
+    "入境許可有使用期限，別排太滿的行程導致過期作廢。入境之後還有 59 天的期限要跑完體檢、按指紋與簽證蓋章。",
+    "整個流程的主導權在雇主手上，但拖延的成本在你身上。定期跟公司的 PRO（Public Relations Officer，專門跑政府文件的窗口）確認進度，並保留書面往來紀錄。",
     "薪資結構通常拆成 basic salary + housing allowance + transport allowance。約滿酬金（gratuity）是用 basic salary 計算的，所以 basic 佔比越低，離職時拿到的越少。"
   ],
   "links": [
-    { "label": "MoHRE 阿聯酋人力資源與本國化部", "url": "https://www.mohre.gov.ae/" },
-    { "label": "ICP 聯邦身分、公民、海關與港口安全局", "url": "https://icp.gov.ae/" },
-    { "label": "u.ae 阿聯酋政府入口網 — 工作簽證", "url": "https://u.ae/en/information-and-services/visa-and-emirates-id" }
+    {
+      "label": "MoHRE 阿聯酋人力資源與本國化部",
+      "url": "https://www.mohre.gov.ae/"
+    },
+    {
+      "label": "ICP 聯邦身分、公民、海關與港口安全局",
+      "url": "https://icp.gov.ae/"
+    },
+    {
+      "label": "u.ae 阿聯酋政府入口網 — 工作簽證",
+      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+    }
   ]
 }

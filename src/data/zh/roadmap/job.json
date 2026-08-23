@@ -4,7 +4,7 @@
   "phase": "before",
   "status": "draft",
   "summary": "阿聯酋沒有個人所得稅，offer 上的數字通常就是實領，但薪資怎麼拆、試用期多長、約滿酬金怎麼算，會決定你實際拿到多少。",
-  "updated": "2026-07-30",
+  "updated": "2026-08-23",
   "steps": [
     {
       "title": "盤點自己的求職管道",
@@ -57,8 +57,8 @@
     },
     {
       "item": "薪資發放",
-      "amount": "須透過 WPS",
-      "note": "薪資保護制度，薪水要走核准管道入帳"
+      "amount": "mainland 須走 WPS",
+      "note": "薪資保護制度。自由區（free zone）不一定適用，依各自由區規定"
     }
   ],
   "pitfalls": [
@@ -68,7 +68,13 @@
     "上面的市場共識是常見行情，不是每家公司都給。拿來對照可以，但別當成對方一定會答應的條件。"
   ],
   "links": [
-    { "label": "MoHRE — 勞動關係與申訴", "url": "https://www.mohre.gov.ae/" },
-    { "label": "u.ae — 阿聯酋勞動法概覽", "url": "https://u.ae/en/information-and-services/jobs" }
+    {
+      "label": "MoHRE — 勞動關係與申訴",
+      "url": "https://www.mohre.gov.ae/"
+    },
+    {
+      "label": "u.ae — 阿聯酋勞動法概覽",
+      "url": "https://u.ae/en/information-and-services/jobs"
+    }
   ]
 }

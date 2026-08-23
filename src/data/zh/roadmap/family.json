@@ -4,7 +4,7 @@
   "phase": "settled",
   "status": "draft",
   "summary": "sponsor 配偶與子女的薪資門檻是月薪 AED 4,000（或 AED 3,000 加上公司提供住宿），而且看的是基本薪資不是總薪資。學費則是全家搬遷最大的一筆固定支出。",
-  "updated": "2026-07-30",
+  "updated": "2026-08-23",
   "prerequisites": [
     "本人已取得居留許可與 Emirates ID",
     "已有官方登記的租約（Ejari 或 Tawtheeq）",
@@ -18,11 +18,11 @@
     },
     {
       "title": "問公司能不能幫忙辦",
-      "detail": "很多公司的 PRO 可以協助處理眷屬簽證的申請流程，有些甚至會負擔規費。這件事值得直接問人資，自己跑和請公司跑的難度差很多。"
+      "detail": "很多公司的 PRO（Public Relations Officer，專門跑政府文件的窗口）可以協助處理眷屬簽證的申請流程，有些甚至會負擔規費。這件事值得直接問人資，自己跑和請公司跑的難度差很多。"
     },
     {
       "title": "備妥親屬關係文件",
-      "detail": "結婚證書、子女出生證明通常需要辦理文件認證與翻譯，台灣端一樣是公證事務所、外交部、阿聯酋在台代表處三關。",
+      "detail": "結婚證書、子女出生證明通常需要辦理文件認證與翻譯，走的是跟學歷一樣的三關：民間公證人、外交部，最後到駐杜拜台北商務辦事處複驗。",
       "note": "跟自己的學歷認證一起辦，可以省下不少來回。"
     },
     {
@@ -79,9 +79,21 @@
     "眷屬的醫療保險多半要自費，是容易被漏算的固定支出。"
   ],
   "links": [
-    { "label": "ICP — 家屬簽證", "url": "https://icp.gov.ae/" },
-    { "label": "u.ae — 家屬簽證資格與規定", "url": "https://u.ae/en/information-and-services/visa-and-emirates-id" },
-    { "label": "KHDA 杜拜知識與人力發展局（學校評鑑）", "url": "https://www.khda.gov.ae/" },
-    { "label": "ADEK 阿布達比教育與知識部", "url": "https://www.adek.gov.ae/" }
+    {
+      "label": "ICP — 家屬簽證",
+      "url": "https://icp.gov.ae/"
+    },
+    {
+      "label": "u.ae — 家屬簽證資格與規定",
+      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+    },
+    {
+      "label": "KHDA 杜拜知識與人力發展局（學校評鑑）",
+      "url": "https://www.khda.gov.ae/"
+    },
+    {
+      "label": "ADEK 阿布達比教育與知識部",
+      "url": "https://www.adek.gov.ae/"
+    }
   ]
 }

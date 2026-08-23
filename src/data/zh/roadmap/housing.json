@@ -4,7 +4,7 @@
   "phase": "firstMonth",
   "status": "draft",
   "summary": "阿聯酋的房租以「年」為單位報價，付款分幾期可以跟房東談。租約一定要做官方登記，杜拜叫 Ejari，阿布達比叫 Tawtheeq。",
-  "updated": "2026-07-30",
+  "updated": "2026-08-23",
   "prerequisites": [
     "已經拿到 Emirates ID（或至少有居留許可核准通知）",
     "已經開好本地銀行帳戶，因為房東通常要收支票",
@@ -32,6 +32,11 @@
     {
       "title": "水電開戶",
       "detail": "杜拜是 DEWA（Dubai Electricity and Water Authority），阿布達比是 ADDC（Abu Dhabi Distribution Company）。開戶要繳保證金，退租時退還。"
+    },
+    {
+      "title": "確認冷氣要不要另外開通",
+      "detail": "有些大樓的冷氣不走一般電力，而是接中央冷卻系統，要另外向 Empower 或 Tabreed 這類業者開戶，也要另外繳保證金。",
+      "note": "這是很容易漏掉的一關——水電開好了卻發現冷氣不會動。看房時就先問這棟是不是 chiller 另計、由哪一家供應。"
     },
     {
       "title": "網路與第四台",
@@ -68,7 +73,7 @@
     "「年租」是以整年報價，但不是只能一次付清。多數房東接受分 4 張支票（每季一張）或半年一張，可以談。願意一次付清的話，通常有機會換到房租折扣。",
     "支票在阿聯酋是有法律效力的付款承諾，跳票後果嚴重。開票前務必確認每張支票的兌現日期與戶頭餘額。",
     "仲介費、押金、水電保證金、社區管理費，都是租金以外的額外現金。第一個月的支出會遠高於之後每個月。",
-    "冷氣費（chiller）有些含在租金裡、有些另計，差距可能很大，看房時一定要問。",
+    "冷氣費（chiller）有些含在租金裡、有些另計，差距可能很大。另計的話還要另外向 Empower、Tabreed 這類業者開戶並繳保證金，看房時一定要問清楚。",
     "退租通常要提前一定期間書面通知，沒通知會自動續約。簽約時就把通知期記在行事曆上。"
   ],
   "videos": [
@@ -78,9 +83,21 @@
     }
   ],
   "links": [
-    { "label": "Dubai Land Department — Ejari", "url": "https://dubailand.gov.ae/" },
-    { "label": "DEWA 杜拜水電局", "url": "https://www.dewa.gov.ae/" },
-    { "label": "ADDC 阿布達比配電公司", "url": "https://www.addc.ae/" },
-    { "label": "TAMM 阿布達比政府服務入口 — Tawtheeq", "url": "https://www.tamm.abudhabi/" }
+    {
+      "label": "Dubai Land Department — Ejari",
+      "url": "https://dubailand.gov.ae/"
+    },
+    {
+      "label": "DEWA 杜拜水電局",
+      "url": "https://www.dewa.gov.ae/"
+    },
+    {
+      "label": "ADDC 阿布達比配電公司",
+      "url": "https://www.addc.ae/"
+    },
+    {
+      "label": "TAMM 阿布達比政府服務入口 — Tawtheeq",
+      "url": "https://www.tamm.abudhabi/"
+    }
   ]
 }

@@ -3,9 +3,11 @@
   "title": "駕照與交通",
   "phase": "settled",
   "status": "draft",
-  "summary": "台灣駕照不能直接換發，要重新考。但阿布達比有一次「黃金機會」可以先直接去考，考過就免上課——這一次機會要好好把握。",
-  "updated": "2026-07-30",
-  "prerequisites": ["已取得 Emirates ID 與居留許可"],
+  "summary": "台灣駕照不能直接換發，要重新考。但有兩條捷徑：阿布達比有一次「黃金機會」可以先直接去考，考過就免上課；如果你剛好持有香港駕照，那可以直接換、完全不用考。",
+  "updated": "2026-08-23",
+  "prerequisites": [
+    "已取得 Emirates ID 與居留許可"
+  ],
   "steps": [
     {
       "title": "先認清一件事：台灣駕照換不了",
@@ -18,9 +20,13 @@
       "note": "所以別抱著「先去試試看」的心態。有把握再去考，考前找人帶你熟悉當地路況與考試路線。"
     },
     {
+      "title": "如果你有香港駕照，可以直接換",
+      "detail": "香港是 RTA 認可的「例外國家」之一：只要持有有效的香港駕照，不論你拿哪一國護照都可以直接換發阿聯酋駕照，不用重考。這是完全正規的管道，不是偏門。",
+      "note": "香港駕照通常需要附上經認證的阿拉伯文翻譯本。實際文件要求以 RTA 或 EDC 當下的規定為準。"
+    },
+    {
       "title": "問問台灣人社群的實際經驗",
-      "detail": "考試路線、哪個駕訓班的教練比較好溝通、黃金機會怎麼申請，問走過一遍的人最快。台灣人社群裡通常有人剛考完。",
-      "note": "另外有一說是可以用香港駕照換發。這屬於走偏門的做法，本站不詳細說明，有興趣請自行向社群打聽並自負風險。"
+      "detail": "考試路線、哪個駕訓班的教練比較好溝通、黃金機會怎麼申請，問走過一遍的人最快。台灣人社群裡通常有人剛考完。"
     },
     {
       "title": "沒考過就報名駕訓班",
@@ -71,10 +77,25 @@
     "阿聯酋對酒駕零容忍，後果包含罰款、監禁與遣返。喝了酒就叫車，沒有例外。"
   ],
   "links": [
-    { "label": "RTA 杜拜道路交通局", "url": "https://www.rta.ae/" },
-    { "label": "EDC 阿布達比駕訓中心", "url": "https://www.edcad.ae/en" },
-    { "label": "Salik 杜拜過路費系統", "url": "https://www.salik.ae/" },
-    { "label": "Darb 阿布達比過路費系統", "url": "https://darb.itc.gov.ae/" },
-    { "label": "Abu Dhabi Police 阿布達比警方", "url": "https://www.adpolice.gov.ae/" }
+    {
+      "label": "RTA 杜拜道路交通局",
+      "url": "https://www.rta.ae/"
+    },
+    {
+      "label": "EDC 阿布達比駕訓中心",
+      "url": "https://www.edcad.ae/en"
+    },
+    {
+      "label": "Salik 杜拜過路費系統",
+      "url": "https://www.salik.ae/"
+    },
+    {
+      "label": "Darb 阿布達比過路費系統",
+      "url": "https://darb.itc.gov.ae/"
+    },
+    {
+      "label": "Abu Dhabi Police 阿布達比警方",
+      "url": "https://www.adpolice.gov.ae/"
+    }
   ]
 }

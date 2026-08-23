@@ -37,7 +37,8 @@
       "Bash(kill 97779 97778 15125 15109)",
       "Bash(rm -f node_modules/.tmp/*.tsbuildinfo tsconfig.app.tsbuildinfo tsconfig.node.tsbuildinfo)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('status:',d.get\\('status'\\),'| build_type:',d.get\\('build_type'\\)\\)\")",
-      "Bash(gh workflow *)"
+      "Bash(gh workflow *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('來源:', d.get\\('source'\\), '| 方式:', d.get\\('build_type'\\), '| 狀態:', d.get\\('status'\\)\\)\")"
     ]
   }
 }
