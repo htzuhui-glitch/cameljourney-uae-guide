@@ -2,7 +2,7 @@
   "slug": "telecom",
   "title": "門號與網路",
   "phase": "firstMonth",
-  "status": "draft",
+  "status": "ready",
   "summary": "剛落地不用急著辦月租。先用旅遊 eSIM 或預付卡撐著，等 Emirates ID 下來再轉月租，還可以挑節慶檔期辦比較划算。",
   "updated": "2026-07-30",
   "steps": [
@@ -35,8 +35,17 @@
     "月租型合約通常有綁約期，提前解約要付違約金。短期外派要問清楚。"
   ],
   "links": [
-    { "label": "e& UAE（原 Etisalat）", "url": "https://www.etisalat.ae/" },
-    { "label": "du", "url": "https://www.du.ae/" },
-    { "label": "TDRA 阿聯酋電信與數位政府監管總局", "url": "https://tdra.gov.ae/" }
+    {
+      "label": "e& UAE（原 Etisalat）",
+      "url": "https://www.etisalat.ae/"
+    },
+    {
+      "label": "du",
+      "url": "https://www.du.ae/"
+    },
+    {
+      "label": "TDRA 阿聯酋電信與數位政府監管總局",
+      "url": "https://tdra.gov.ae/"
+    }
   ]
 }

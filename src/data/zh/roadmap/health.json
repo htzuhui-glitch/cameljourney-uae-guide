@@ -2,7 +2,7 @@
   "slug": "health",
   "title": "醫療保險、看醫生與從台灣帶什麼",
   "phase": "firstMonth",
-  "status": "draft",
+  "status": "ready",
   "summary": "醫療保險在阿聯酋是雇主的法定義務，但涵蓋範圍差很多。眷屬保險由誰負擔，是談 offer 時要問清楚的一題。",
   "updated": "2026-07-30",
   "steps": [
@@ -29,7 +29,13 @@
     "眷屬保險常常不含在公司方案裡，是最容易被漏算的固定支出。談 offer 時就要問清楚。"
   ],
   "links": [
-    { "label": "MOHAP 阿聯酋衛生部", "url": "https://mohap.gov.ae/" },
-    { "label": "u.ae — 醫療保險", "url": "https://u.ae/en/information-and-services/health-and-fitness" }
+    {
+      "label": "MOHAP 阿聯酋衛生部",
+      "url": "https://mohap.gov.ae/"
+    },
+    {
+      "label": "u.ae — 醫療保險",
+      "url": "https://u.ae/en/information-and-services/health-and-fitness"
+    }
   ]
 }

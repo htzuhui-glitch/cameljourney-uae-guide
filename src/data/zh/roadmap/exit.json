@@ -2,7 +2,7 @@
   "slug": "exit",
   "title": "離職、離境與約滿酬金",
   "phase": "exit",
-  "status": "draft",
+  "status": "ready",
   "summary": "離開阿聯酋不是買張機票就好。簽證要註銷、帳單要結清、約滿酬金要算清楚，順序錯了會被卡住。",
   "updated": "2026-07-30",
   "steps": [
@@ -44,7 +44,13 @@
     "小孩的 transfer certificate 要在離開學校時就辦好，人走了再回頭要非常麻煩。"
   ],
   "links": [
-    { "label": "MoHRE — 終止僱傭關係", "url": "https://www.mohre.gov.ae/" },
-    { "label": "ICP — 簽證註銷", "url": "https://icp.gov.ae/" }
+    {
+      "label": "MoHRE — 終止僱傭關係",
+      "url": "https://www.mohre.gov.ae/"
+    },
+    {
+      "label": "ICP — 簽證註銷",
+      "url": "https://icp.gov.ae/"
+    }
   ]
 }

@@ -2,7 +2,7 @@
   "slug": "housing",
   "title": "租屋、租約登記與水電開戶",
   "phase": "firstMonth",
-  "status": "draft",
+  "status": "ready",
   "summary": "阿聯酋的房租以「年」為單位報價，付款分幾期可以跟房東談。租約一定要做官方登記，杜拜叫 Ejari，阿布達比叫 Tawtheeq。",
   "updated": "2026-08-23",
   "prerequisites": [

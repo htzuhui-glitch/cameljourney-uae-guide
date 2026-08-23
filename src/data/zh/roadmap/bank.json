@@ -2,7 +2,7 @@
   "slug": "bank",
   "title": "銀行開戶與匯款回台",
   "phase": "firstMonth",
-  "status": "draft",
+  "status": "ready",
   "summary": "沒有 Emirates ID 幾乎開不了完整帳戶，但沒有帳戶又租不到房。所以順序是：先辦 Emirates ID，再開戶，再租房。",
   "updated": "2026-07-30",
   "prerequisites": [
@@ -39,7 +39,13 @@
     "匯款回台會被台灣端認列為境外匯入，金額較大時可能需要說明資金來源。相關稅務問題請諮詢會計師。"
   ],
   "links": [
-    { "label": "UAE Central Bank 阿聯酋中央銀行", "url": "https://www.centralbank.ae/" },
-    { "label": "u.ae — 開立銀行帳戶", "url": "https://u.ae/en/information-and-services/finance-and-investment" }
+    {
+      "label": "UAE Central Bank 阿聯酋中央銀行",
+      "url": "https://www.centralbank.ae/"
+    },
+    {
+      "label": "u.ae — 開立銀行帳戶",
+      "url": "https://u.ae/en/information-and-services/finance-and-investment"
+    }
   ]
 }
