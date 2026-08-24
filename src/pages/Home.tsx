@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Consult from '../components/Consult'
 import QuickCost from '../components/QuickCost'
 import SocialIcon from '../components/SocialIcon'
 import { Container } from '../components/ui'
@@ -147,10 +146,6 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="mt-16">
-          <Consult />
-        </div>
-
         {socials.length > 0 && (
           <section className="mt-16 rounded-2xl border border-sand-200 bg-white p-8">
             <h2 className="text-xl font-semibold tracking-tight text-ink-900">
@@ -158,6 +153,7 @@ export default function Home() {
             </h2>
             <p className="text-flow mt-2 max-w-2xl text-sm text-ink-500">
               這個網站放的是要動手辦事時查得到的資訊；頻道上講的是住在這裡真實的樣子。兩邊搭著看。
+              想做一對一諮詢也歡迎私訊，說明你的狀況，我們再約時間。
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               {socials.map((item) => (

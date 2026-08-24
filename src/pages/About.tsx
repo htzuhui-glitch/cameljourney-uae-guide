@@ -1,8 +1,9 @@
-import Consult from '../components/Consult'
 import { Container, PageHeader } from '../components/ui'
-import { SITE } from '../lib/site'
+import { SITE, SOCIAL } from '../lib/site'
 
 export default function About() {
+  const instagram = SOCIAL.find((item) => item.id === 'instagram' && item.url)
+
   return (
     <>
       <PageHeader eyebrow="關於" title="關於本站" lead={SITE.tagline} />
@@ -45,10 +46,20 @@ export default function About() {
             <code className="rounded bg-sand-100 px-1.5 py-0.5 text-sm">{SITE.repo}</code>
             ）開 issue 告訴我。
           </p>
-        </div>
 
-        <div className="mt-12 max-w-3xl">
-          <Consult />
+          <h2 className="pt-4 text-xl font-semibold text-ink-900">一對一諮詢</h2>
+          <p>
+            想找人針對你自己的狀況聊一聊，歡迎私訊{' '}
+            <a
+              href={instagram?.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-camel-600 underline underline-offset-4 hover:text-camel-500"
+            >
+              Instagram
+            </a>
+            ，說明你的狀況，我們再約時間。
+          </p>
         </div>
       </Container>
     </>
