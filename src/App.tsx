@@ -13,6 +13,7 @@ import Resources from './pages/Resources'
 import Roadmap from './pages/Roadmap'
 import RoadmapTopic from './pages/RoadmapTopic'
 import Thanks from './pages/Thanks'
+import Welcome from './pages/Welcome'
 
 export default function App() {
   return (
@@ -29,8 +30,9 @@ export default function App() {
         <Route path="faq" element={<Faq />} />
         <Route path="resources" element={<Resources />} />
         <Route path="about" element={<About />} />
-        {/* 電子報訂閱後的導向頁，不放在導覽列裡 */}
+        {/* 電子報訂閱後的導向頁，兩個客群各自獨立，不放在導覽列裡 */}
         <Route path="thanks" element={<Thanks />} />
+        <Route path="welcome" element={<Welcome />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
