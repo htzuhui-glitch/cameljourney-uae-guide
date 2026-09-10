@@ -123,7 +123,7 @@ export default function Welcome() {
                   className="block text-sm text-camel-600 underline underline-offset-4
                              hover:text-camel-500"
                 >
-                  YouTube @htzuhui
+                  YouTube 慈飛蹲點阿拉伯
                 </a>
               )}
             </div>
